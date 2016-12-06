@@ -1,0 +1,6 @@
+set(Eigen_FOUND 0)
+set(Eigen_DIR /usr/include/eigen3)
+if(Eigen_DIR)
+  set(Eigen_INCLUDE_DIR ${Eigen_DIR})
+  set(Eigen_FOUND 1)
+endif()
